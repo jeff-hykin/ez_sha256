@@ -5,7 +5,7 @@ This is effectively a fork of [this repo](https://github.com/chiefbiiko/sha256) 
 # Usage
 
 ``` ts
-import { sha256 } from "https://deno.land/x/ez_sha256@1.0.0/main.ts"
+import { sha256 } from "https://deno.land/x/ez_sha256@1.0.1/main.ts"
 
 const string = "howdy"
 console.log(`SHA2-256 of ${string}`, sha256(string, "utf8", "hex"))
